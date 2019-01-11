@@ -230,7 +230,7 @@ Las tres últimas líneas definen los campos del modelo. Vale la pena señalar q
 
 En este momento, este archivo aún no es utilizado por el módulo. Debemos decirle a Python que lo cargue con el módulo en el archivo `__init__.py`. Vamos a editarlo para agregar la siguiente línea:
 ```
-from . Importar todo_modelo
+from . Importar todo_model
 ```
 ¡Eso es! Para que nuestros cambios de código de Python entren en vigor, la instancia de servidor debe reiniciarse (a menos que esté utilizando el modo `--dev`).
 
